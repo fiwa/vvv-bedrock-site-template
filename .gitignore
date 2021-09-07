@@ -1,0 +1,6 @@
+# This repo is not for your website.
+# You should never commit files from your site here.
+
+log/
+provision/vvv-nginx.conf
+public_html
