@@ -83,7 +83,7 @@ install_bedrock() {
       echo " * Install fresh Bedrock"
       noroot composer create-project roots/bedrock "${VVV_PATH_TO_SITE}/${PUBLIC_DIR}"
     else
-      echo " * Install Bedrock depencencies"
+      echo " * Install Bedrock dependencies"
       cd "${VVV_PATH_TO_SITE}/${PUBLIC_DIR}"
       noroot composer install
     fi
